@@ -1,0 +1,14 @@
+android_app_import {
+    name: "F-Droid",
+    product_specific: true,
+    presigned: true,
+    dex_preopt: {
+    	enabled: false,
+    },
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+    arch: {
+        arm64: {
+            apk: "F-Droid.apk",
+        },
+    },
+}
