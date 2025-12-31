@@ -2,6 +2,7 @@ android_app_import {
     name: "F-Droid",
     product_specific: true,
     presigned: true,
+    preprocessed: true,
     dex_preopt: {
     	enabled: false,
     },
